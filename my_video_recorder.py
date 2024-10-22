@@ -9,6 +9,7 @@ cap = cv.VideoCapture(ip_url)
 
 parser = argparse.ArgumentParser(description='control the fps')
 parser.add_argument('--fps', help='contorl the fps value', default=int(cap.get(cv.CAP_PROP_FPS) / 10000))
+parser.add_argument('--time', help='contorl the recording time', default=10)
 
 args = parser.parse_args()
 if not cap.isOpened():
@@ -21,7 +22,7 @@ height = int(cap.get(cv.CAP_PROP_FRAME_HEIGHT))
 fps = int(args.fps)
 print('fps', fps)
 
-record_t = 10
+record_t = int(args.time)
 print(f"Recording time: {record_t} sec")
 
 fourcc = cv.VideoWriter_fourcc('X', 'V', 'I', 'D')
@@ -47,7 +48,6 @@ while True:
     cv.imshow('streaming video', frame)
 
     now = datetime.datetime.now().strftime("%d_%H-%M-%S")
-    brightness = 5
     
     if time.time() - start_time >= record_t:
         break
