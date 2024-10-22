@@ -23,7 +23,7 @@ ESC : 즉시 종료
 
 녹화 모드
 
-
+<img src="./recorder.gif" alt="image1"/>
 
 - #### 주의 사항
 
