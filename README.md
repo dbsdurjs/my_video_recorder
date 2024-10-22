@@ -23,6 +23,7 @@ ESC : 즉시 종료
 
 녹화 모드
 
+![recorder](https://github.com/user-attachments/assets/2b6df17a-a751-4d8b-81ab-3346a96dd3b1)
 
 
 - #### 주의 사항
