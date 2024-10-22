@@ -2,7 +2,7 @@
 
 - ### 실행 예시
 
-<img src="./실행 예시.png" alt="image1"/>
+<img src="./img/실행 예시.png" alt="image1"/>
 
 - ### 모드
 
@@ -19,11 +19,11 @@ ESC : 즉시 종료
 - ### 결과
 이미지 캡쳐
 
-<img src="./이미지 캡쳐 예시.png" alt="image1"/>
+<img src="./img/이미지 캡쳐 예시.png" alt="image1"/>
 
 녹화 모드
 
-<img src="./recorder.gif" alt="image1"/>
+<img src="./img/recorder.gif" alt="image1"/>
 
 - #### 주의 사항
 
